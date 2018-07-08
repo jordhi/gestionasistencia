@@ -8,7 +8,15 @@ public class Profesor {
         this.dni = dni;
     }
 
-    public void set_login(boolean b) {
+    public void setLogin(boolean b) {
         this.login = b;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public boolean isLogin() {
+        return login;
     }
 }
