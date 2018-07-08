@@ -1,4 +1,4 @@
-package cucumbertest;
+package gestionasistencia;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

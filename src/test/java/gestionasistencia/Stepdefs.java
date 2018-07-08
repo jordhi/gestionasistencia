@@ -1,4 +1,4 @@
-package cucumbertest;
+package gestionasistencia;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
@@ -6,14 +6,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 import cucumber.api.junit.Cucumber;
+import gestionasistencia.model.Profesor;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
 
 @RunWith(Cucumber.class)
 public class Stepdefs {
     //private String dni = "1234567A";
-    //private Profesor profesor = new Profesor(dni);
+    //private gestionasistencia.model.Profesor profesor = new gestionasistencia.model.Profesor(dni);
 
     @Given("^Profe logado en el sistema$")
     public void profe_logado_en_el_sistema() {

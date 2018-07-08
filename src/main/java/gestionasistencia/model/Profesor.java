@@ -1,4 +1,4 @@
-package cucumbertest;
+package gestionasistencia.model;
 
 public class Profesor {
     private String dni;
